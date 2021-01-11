@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469807001774",
+    "firebase_url": "https://rakuapp-96b94.firebaseio.com",
+    "project_id": "rakuapp-96b94",
+    "storage_bucket": "rakuapp-96b94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469807001774:android:8ea4c6175c2eaf00053d3f",
+        "android_client_info": {
+          "package_name": "com.example.raku_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469807001774-67jtt4r3l205n7a582pa0pj53p7l8058.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raku_app",
+            "certificate_hash": "12677ecf08e0304cdbe90da17694ff67e4f11037"
+          }
+        },
+        {
+          "client_id": "469807001774-9t1ppupkelbqseo4p6jrrtvs42u8ciml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxy6iX3cuKK_9NBb4LaCK2pD5NhJx5I-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469807001774-9t1ppupkelbqseo4p6jrrtvs42u8ciml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
