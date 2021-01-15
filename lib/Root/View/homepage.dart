@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
 import 'package:raku_app/Root/Controller/auth.dart';
 import 'package:raku_app/Root/View/Forum/forum_home.dart';
+import 'package:raku_app/Root/View/Messenger/chat_home.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -34,6 +35,13 @@ class HomePage extends StatelessWidget {
                 builder: (context) => ForumHome()
               )),
               child: Text("Forum"),
+            ),
+            SizedBox(height: 20,),
+            RaisedButton(
+              onPressed: () => Navigator.push(context, MaterialPageRoute(
+                  builder: (context) => ChatHome()
+              )),
+              child: Text("Chat"),
             )
           ],
         ),

@@ -33,6 +33,7 @@ dependencies:
   flutter_statusbarcolor: ^0.2.3
   firebase_storage: ^5.0.1
   qr_flutter: ^3.2.0
+  dash_chat: ^1.1.15
 
 
 dev_dependencies:
@@ -50,6 +51,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/image/logo.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
