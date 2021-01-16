@@ -34,6 +34,7 @@ dependencies:
   firebase_storage: ^5.0.1
   qr_flutter: ^3.2.0
   dash_chat: ^1.1.15
+  provider: ^4.3.2+4
 
 
 dev_dependencies:

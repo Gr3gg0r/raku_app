@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:provider/provider.dart';
 import 'package:raku_app/Root/Controller/auth.dart';
 import 'package:raku_app/Root/Model/user_model.dart';
 import 'package:raku_app/Root/Shared/loading_view.dart';
