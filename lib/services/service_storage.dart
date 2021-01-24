@@ -2,13 +2,13 @@ import 'dart:io';
 
 import 'package:firebase_storage/firebase_storage.dart';
 
-class StorageService{
+class ServiceStorage{
   final String location;
-  StorageService({this.location});
+  ServiceStorage({this.location});
 
   FirebaseStorage _storage = FirebaseStorage.instance;
 
-  Future<String>uploadTask(File file) async{
+  Future<String> uploadTask(File file) async {
     final uploadTask = _storage.ref(location);
     await uploadTask.putFile(file);
     String downloadUrl = await uploadTask.getDownloadURL();

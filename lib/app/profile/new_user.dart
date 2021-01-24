@@ -2,8 +2,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:raku_app/Root/Controller/db_controller.dart';
-import 'package:raku_app/Root/Controller/storage.dart';
+import 'file:///G:/FutureInTheMaking/Project/Dr%20Aza/Raku/raku_app/lib/services/db_controller.dart';
+import 'package:raku_app/services/service_storage.dart';
 
 class NewUser extends StatelessWidget {
   final String uid;
@@ -112,7 +112,7 @@ class _CustomFormState extends State<CustomForm> {
   void addData() async{
     setLoading();
     if(_image!=null){
-      String downloadUrl = await StorageService(location: "UserProfile/${widget.uid}").uploadTask(_image);
+      String downloadUrl = await ServiceStorage(location: "UserProfile/${widget.uid}").uploadTask(_image);
       Exception status = DBController(collection: "UserProfile",docu: widget.uid).addData({
         "image_url" : downloadUrl,
         "username" : username,

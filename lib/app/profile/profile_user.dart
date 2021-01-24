@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:raku_app/Root/View/Messenger/chat_room.dart';
+import 'package:raku_app/app/messenger//chat_room.dart';
 
 class ProfileUser extends StatelessWidget {
   final DocumentSnapshot snapshot;
